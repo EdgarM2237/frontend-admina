@@ -1,2 +1,2 @@
-export const ENDOPONT = "https://admina-api.onrender.com/api"
-export const IMAGEENDPOINT = "https://admina-api.onrender.com"
+export const ENDOPONT = "https://backend-control-access-production.up.railway.app/api"
+export const IMAGEENDPOINT = "https://backend-control-access-production.up.railway.app"
