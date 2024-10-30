@@ -60,7 +60,7 @@ export default function EmailVerification() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/resend-code",
+        `${ENDOPONT}/auth/resend-code`,
         {
           method: "POST",
           headers: {

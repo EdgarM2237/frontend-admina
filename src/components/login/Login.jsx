@@ -11,6 +11,7 @@ import {
   Button,
   Alert,
 } from "@material-tailwind/react"
+import { ENDOPONT } from '../fetchs/GeneralVariables'
 
 export default function LoginForm() {
   const [email, setEmail] = useState('')
@@ -26,7 +27,7 @@ export default function LoginForm() {
     setError('')
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch(`${ENDOPONT}/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
