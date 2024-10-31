@@ -1,6 +1,6 @@
 import { ENDOPONT } from "./GeneralVariables";
 
-export const fetchAdmin = async () => {
+export const fetchUserLogs = async () => {
     try {
       const response = await fetch(`${ENDOPONT}/user_logs`);
       if (!response.ok) {

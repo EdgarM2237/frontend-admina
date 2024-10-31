@@ -119,6 +119,7 @@ export function AdminTable() {
     setCurrentItem(item);
     setEditOpenModal(true);
   };
+
   return (
     <Card className="h-full w-full">
       <CardHeader floated={false} shadow={false} className="rounded-none">
